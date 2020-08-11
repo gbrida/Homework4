@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div id="timediv">
+        time: <span id="time"></span>
+    </div>
+    <div id="title">
+        <h1>code quiz challenge </h1>
+        <p>timed quiz on JavaScript</p>
+        <button id="start-quiz">start quiz</button>
+    </div>
+
+    <div id="start" class="hide">
+        <h2 id="question"></h2>
+        <ol id="choices"></ol>
+    </div>
+
+    <div id="input" class="hide">
+        enter initial: <input type="text" id="inputscore">
+        <button id="savescore">save</button>
+    </div>
+
+    <div id="viewhighscore" class="hide">
+        <h3 id="score"></h3>
+        <button id="goback">go back</button>
+        <button id="clearscore">clear score</button>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
